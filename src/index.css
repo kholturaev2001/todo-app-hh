@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ant-btn-primary {
+  background-color: #4096ff !important;
+}
+
+.ant-btn-default:not(:disabled):hover {
+  color: rgb(199, 199, 199) !important;
+}
+
